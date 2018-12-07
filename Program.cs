@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System;
+using System.Data.SqlClient;
+using System.Text;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using System.IO;
 
@@ -20,9 +23,6 @@ namespace TodoApi
     }
 }
 
-using System;
-using System.Data.SqlClient;
-using System.Text;
 
 namespace sqltest
 {
